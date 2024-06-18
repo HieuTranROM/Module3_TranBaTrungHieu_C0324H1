@@ -2,13 +2,13 @@ create database quan_ly_ban_hang;
 use quan_ly_ban_hang;
 
 create table customer(
-	c_id int primary key auto_increment,
+    c_id int primary key auto_increment,
     customer_name varchar(50),
     age int
 );
 
 create table orders(
-	o_id int primary key auto_increment,
+    o_id int primary key auto_increment,
     date_order date,
     total_price float,
     customer_id int,
