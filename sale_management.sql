@@ -1,5 +1,5 @@
 create database sale_management;
-
+drop database sale_management;
 use sale_management;
 
 create table phieu_xuat(
@@ -59,7 +59,7 @@ create table chi_tiet_don_dat_hang(
 );
 
 create table SDT(
-    maNcc int primary key ,
-    sdt varchar (10) not null ,
+    sdt varchar (10) not null primary key,
+    maNcc int,
     foreign key(maNcc) references nhacc(maNcc)
 );
