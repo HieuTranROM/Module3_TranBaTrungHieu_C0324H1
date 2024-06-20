@@ -56,6 +56,8 @@ select * from students;
 
 select * from students where name = 'Tien' or name = 'Toan';
 
+select * from students where name in ('Tien','Toan');
+
 select id_class,count(id)
 as number_students
 from students
