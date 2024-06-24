@@ -3,15 +3,15 @@ USE demo1;
 drop database demo1;
 CREATE TABLE products (
     Id INT AUTO_INCREMENT PRIMARY KEY,
-    productCode VARCHAR(50) NOT NULL,
-    productName VARCHAR(100),
-    productPrice DECIMAL(10, 2),
-    productAmount INT,
-    productDescription TEXT,
-    productStatus VARCHAR(20)
+    product_code VARCHAR(50) NOT NULL,
+    product_name VARCHAR(100),
+    product_price DECIMAL(10, 2),
+    product_amount INT,
+    product_description TEXT,
+    product_status VARCHAR(20)
 );
 
-INSERT INTO products (productCode, productName, productPrice, productAmount, productDescription, productStatus)
+INSERT INTO products (product_code, product_name, product_price, product_amount, product_description, product_status)
 VALUES
     ('P001', 'Product 1', 10.00, 100, 'Description for Product 1', 'Available'),
     ('P002', 'Product 2', 20.00, 200, 'Description for Product 2', 'Out of Stock'),
@@ -20,33 +20,33 @@ VALUES
     ('P005', 'Product 5', 50.00, 500, 'Description for Product 5', 'Discontinued');
 
 -- Tạo Unique Index trên cột productCode
-CREATE UNIQUE INDEX idx_productCode ON products (productCode);
+CREATE UNIQUE INDEX idx_productCode ON products (product_code);
 
 -- Tạo Composite Index trên cột productName và productPrice
-CREATE INDEX idx_productName_productPrice ON products (productName, productPrice);
+CREATE INDEX idx_productName_productPrice ON products (product_name, product_price);
 
 -- Sử dụng câu lệnh EXPLAIN để kiểm tra truy vấn
-EXPLAIN SELECT * FROM Products WHERE productCode = 'P001';
-EXPLAIN SELECT * FROM Products WHERE productName = 'Product 1' AND productPrice = 10.00;
+EXPLAIN SELECT * FROM products WHERE product_code = 'P001';
+EXPLAIN SELECT * FROM products WHERE product_name = 'Product 1' AND product_price = 10.00;
 
 -- Tạo view
-CREATE VIEW ProductView AS
-SELECT productCode, productName, productPrice, productStatus
+CREATE VIEW product_view AS
+SELECT product_code, product_name, product_price, product_status
 FROM products;
 
 -- Sửa đổi view 
-DROP VIEW IF EXISTS ProductView;
-CREATE VIEW ProductView AS
-SELECT productCode, productName, productPrice, productStatus, productAmount
+DROP VIEW IF EXISTS product_view;
+CREATE VIEW product_view AS
+SELECT product_code, product_name, product_price, product_status, product_amount
 FROM products;
 
 -- Xoá view
-DROP VIEW IF EXISTS ProductView;
+DROP VIEW IF EXISTS product_view;
 
 --
 DELIMITER //
 
-CREATE PROCEDURE GetAllProducts()
+CREATE PROCEDURE get_all_products()
 BEGIN
     SELECT * FROM products;
 END //
@@ -56,17 +56,17 @@ DELIMITER ;
 --
 DELIMITER //
 
-CREATE PROCEDURE addProduct(
-    IN productCode VARCHAR(50),
-    IN productName VARCHAR(100),
-    IN productPrice DECIMAL(10, 2),
-    IN productAmount INT,
-    IN productDescription TEXT, 	
-    IN productStatus VARCHAR(20)
+CREATE PROCEDURE add_product(
+    IN product_code VARCHAR(50),
+    IN product_came VARCHAR(100),
+    IN product_price DECIMAL(10, 2),
+    IN product_amount INT,
+    IN product_description TEXT, 	
+    IN product_status VARCHAR(20)
 )
 BEGIN
-    INSERT INTO products (productCode, productName, productPrice, productAmount, productDescription, productStatus)
-    VALUES (p_productCode, p_productName, p_productPrice, p_productAmount, p_productDescription, p_productStatus);
+    INSERT INTO products (product_code, product_name, product_price, product_amount, product_description, product_status)
+    VALUES (product_code, product_name, product_price, product_amount, product_description, product_status);
 END //
 
 DELIMITER ;
@@ -74,23 +74,23 @@ DELIMITER ;
 -- Sửa
 DELIMITER //
 
-CREATE PROCEDURE updateProduct(
+CREATE PROCEDURE update_product(
     IN Id INT,
-    IN productCode VARCHAR(50),
-    IN productName VARCHAR(100),
-    IN productPrice DECIMAL(10, 2),
-    IN productAmount INT,
-    IN productDescription TEXT,
-    IN productStatus VARCHAR(50)
+    IN product_code VARCHAR(50),
+    IN product_name VARCHAR(100),
+    IN product_price DECIMAL(10, 2),
+    IN product_amount INT,
+    IN product_description TEXT,
+    IN product_status VARCHAR(50)
 )
 BEGIN
     UPDATE products
-    SET productCode = productCode,
-        productName = productName,
-        productPrice = productPrice,
-        productAmount = productAmount,
-        productDescription = productDescription,
-        productStatus = productStatus
+    SET product_code = product_code,
+        product_name = product_name,
+        product_price = product_price,
+        product_amount = product_amount,
+        product_description = product_description,
+        product_status = product_status
     WHERE Id = Id;
 END //
 
@@ -99,7 +99,7 @@ DELIMITER ;
 -- Xóa
 DELIMITER //
 
-CREATE PROCEDURE DeleteProduct(IN Id INT)
+CREATE PROCEDURE delete_product(IN Id INT)
 BEGIN
     DELETE FROM products WHERE Id = Id;
 END //
