@@ -1,6 +1,9 @@
 use quan_ly_ban_hang;
 
-select * from product;
+SELECT 
+    *
+FROM
+    product;
 
 select c.c_id,c.customer_name AS "Tên người mua",GROUP_CONCAT(p.name_product) AS "Tên sản phẩm mua", o.o_id
 from customer c
