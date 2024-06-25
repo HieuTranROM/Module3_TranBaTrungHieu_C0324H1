@@ -1,0 +1,97 @@
+#menu {
+    background-color: black;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li {
+    position: relative;
+    list-style: none;
+    float: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li.login-1{
+    float: right;
+}
+
+#menu ul, #menu li {
+    padding: 10px;
+    margin: 0;
+}
+
+#menu ul li:hover {
+    background-color: #CDCDCD;
+}
+
+#left {
+    width: 15%;
+    background-color: #CDCDCD;
+    float: left;
+    height: 100%;
+}
+
+#left li {
+    list-style: none;
+}
+
+#left a {
+    text-decoration: none;
+}
+
+#content {
+    width: 65%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 10px;
+}
+
+#right {
+    width: 15%;
+    height: 100%;
+    background-color: #CDCDCD;
+    float: right;
+    height: 100%;
+}
+
+#right button {
+    width: 100px;
+    height: 50px;
+    float: initial;
+    padding: 10px;
+    margin: 30%;
+    text-align: center;
+}
+
+.footer {
+    height: 60px;
+    background-color: dimgray;
+    color: white;
+    position: relative;
+}
+
+.footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.body {
+    margin: 0;
+    height: 600px;
+}
+
+.body a {
+    margin: auto;
+}
+
+hr {
+    opacity: 0.3;
+}

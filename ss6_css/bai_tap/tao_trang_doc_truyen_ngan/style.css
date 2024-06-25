@@ -1,5 +1,4 @@
 #box2,#box3,#box4{
-    display: inline;
     color: darkgreen;
     font-size: 50px;
 }
@@ -13,4 +12,12 @@ h1{
     background-color: darkgreen;
     text-align: center;
     color: #dddddd;
+}
+
+.image-1{
+    text-align: center;
+}
+
+img{
+    width: 1000px;
 }
