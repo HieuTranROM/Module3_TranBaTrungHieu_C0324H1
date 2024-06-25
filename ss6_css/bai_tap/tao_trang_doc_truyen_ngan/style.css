@@ -1,0 +1,16 @@
+#box2,#box3,#box4{
+    display: inline;
+    color: darkgreen;
+    font-size: 50px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;/* xoa ganh chan*/
+}
+
+h1{
+    background-color: darkgreen;
+    text-align: center;
+    color: #dddddd;
+}
