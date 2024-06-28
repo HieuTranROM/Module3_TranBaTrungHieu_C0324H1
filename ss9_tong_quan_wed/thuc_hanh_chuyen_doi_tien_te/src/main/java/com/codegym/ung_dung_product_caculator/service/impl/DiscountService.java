@@ -1,6 +1,6 @@
-package com.codegym.thuc_hanh_chuyen_doi_tien_te.service.impl;
+package com.codegym.ung_dung_product_caculator.service.impl;
 
-import com.codegym.thuc_hanh_chuyen_doi_tien_te.service.IService;
+import com.codegym.ung_dung_product_caculator.service.IService;
 
 public class DiscountService implements IService {
     @Override

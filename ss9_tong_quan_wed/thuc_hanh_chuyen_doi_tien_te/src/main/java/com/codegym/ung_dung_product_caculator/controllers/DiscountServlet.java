@@ -1,7 +1,7 @@
-package com.codegym.thuc_hanh_chuyen_doi_tien_te.controllers;
+package com.codegym.ung_dung_product_caculator.controllers;
 
-import com.codegym.thuc_hanh_chuyen_doi_tien_te.service.IService;
-import com.codegym.thuc_hanh_chuyen_doi_tien_te.service.impl.DiscountService;
+import com.codegym.ung_dung_product_caculator.service.IService;
+import com.codegym.ung_dung_product_caculator.service.impl.DiscountService;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
