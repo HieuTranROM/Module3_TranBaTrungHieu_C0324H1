@@ -1,4 +1,4 @@
-package com.codegym.thuc_hanh_chuyen_doi_tien_te;
+package com.codegym.thuc_hanh_chuyen_doi_tien_te.controllers;
 
 import java.io.*;
 import javax.servlet.http.*;

@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>Currency Converter</h2>
-<form action="/display-discount" method="post">
+<form action="/display-discount" method="POST">
   <label>Product Description: </label><br/>
   <input type="text" name="description"/><br/>
   <label>List Price: </label><br/>
