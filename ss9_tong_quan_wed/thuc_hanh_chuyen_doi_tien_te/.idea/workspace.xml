@@ -10,17 +10,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aca9b9b-7910-466c-a897-a52e1b9e8a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/repositories/ICustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/repositories/impl/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/services/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/services/impl/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/webapp/customer/customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/celebs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/meanmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/eye-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/fb-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/img-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/instagram-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/linkedin-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/newsletter-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/notification-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/play-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/star-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/twitter-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/images/user-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/modernizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/js/slider-setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/movies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case_Study/CaseStudyModule3/src/main/webapp/tv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/ung_dung_caculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/ung_dung_caculator/src/main/java/com/codegym/ung_dung_caculator/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/ung_dung_caculator/src/main/java/com/codegym/ung_dung_caculator/servlet/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/repositories/impl/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/java/com/codegym/demo/repositories/impl/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/webapp/customer/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_jstl/bai_tap/demo/src/main/webapp/customer/customer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,21 +168,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build thuc_hanh_chuyen_doi_tien_te.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.89.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build thuc_hanh_chuyen_doi_tien_te.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.89.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.89" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.89" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
@@ -209,7 +289,7 @@
       <workItem from="1719455768187" duration="3750000" />
       <workItem from="1719536073824" duration="3311000" />
       <workItem from="1719544675174" duration="365000" />
-      <workItem from="1719545365400" duration="3558000" />
+      <workItem from="1719545365400" duration="4161000" />
     </task>
     <servers />
   </component>

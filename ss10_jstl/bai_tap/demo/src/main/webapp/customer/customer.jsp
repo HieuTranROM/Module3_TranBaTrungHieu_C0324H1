@@ -30,8 +30,7 @@
     </div>
 </nav>
 <div class="container">
-    <button class="btn btn-primary mt-4">Thêm</button>
-    <table class="table table-hover">
+    <table class="table table-hover" style="margin-top: 20px">
         <thead>
         <tr>
             <th>Tên</th>

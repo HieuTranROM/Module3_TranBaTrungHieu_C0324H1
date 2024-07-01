@@ -12,10 +12,10 @@ public class CustomerRepository implements ICustomerRepository {
     static{
         customers = new ArrayList<>();
         customers.add(new Customer("Mai Văn Hoàn", "1983/08/20", "Hà Nội","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-001.jpg"));
-        customers.add(new Customer("Nguyễn Văn Nam", "1983/08/21", "Bắc Giang","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-001.jpg"));
-        customers.add(new Customer("Nguyễn Thái Hòa", "1983/08/22", "Nam Định","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-001.jpg"));
-        customers.add(new Customer("Trần Đăng Khoa", "1983/08/17", "Hà Tây","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-001.jpg"));
-        customers.add(new Customer("Nguyễn Đình Thi", "1983/08/19", "Hà Nội","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-001.jpg"));
+        customers.add(new Customer("Nguyễn Văn Nam", "1983/08/21", "Bắc Giang","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-002.jpg"));
+        customers.add(new Customer("Nguyễn Thái Hòa", "1983/08/22", "Nam Định","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-003.jpg"));
+        customers.add(new Customer("Trần Đăng Khoa", "1983/08/17", "Hà Tây","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-004.jpg"));
+        customers.add(new Customer("Nguyễn Đình Thi", "1983/08/19", "Hà Nội","https://vapa.vn/wp-content/uploads/2022/12/anh-mau-dep-005.jpg"));
     }
 
     public List<Customer> findAll() {
