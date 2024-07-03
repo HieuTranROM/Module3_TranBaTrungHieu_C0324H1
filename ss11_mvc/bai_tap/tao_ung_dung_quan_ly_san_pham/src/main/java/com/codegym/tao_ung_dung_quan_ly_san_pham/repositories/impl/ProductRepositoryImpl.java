@@ -63,5 +63,15 @@ public class ProductRepositoryImpl implements ProductRepository {
         }
         return result;
     }
+
+    @Override
+    public Product findById(int id) {
+        for (Product product : products) {
+            if (product.getId() == id) {
+                return product;
+            }
+        }
+        return null;
+    }
 }
 

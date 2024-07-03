@@ -30,8 +30,9 @@ public class ProductController extends HttpServlet {
                 req.getRequestDispatcher("/product/create.jsp").forward(req, resp);
                 break;
             case "update":
-                int idUpdate = Integer.parseInt(req.getParameter("id"));
-                req.setAttribute("idUpdate", idUpdate);
+                int id = Integer.parseInt(req.getParameter("id"));
+                Product productEdit = productService.findById(id);
+                req.setAttribute("product", productEdit);
                 req.getRequestDispatcher("/product/update.jsp").forward(req, resp);
                 break;
             case "search":
@@ -79,7 +80,7 @@ public class ProductController extends HttpServlet {
                 break;
             case "update":
                 int idUpdate = Integer.parseInt(req.getParameter("id"));
-                String updatedName = req.getParameter("name");
+                String updatedName = req.getParameter("nameProduct");
                 int updatedPrice = Integer.parseInt(req.getParameter("price"));
                 String updatedDescription = req.getParameter("description");
                 String updatedProducer = req.getParameter("producer");

@@ -20,23 +20,23 @@
         <h1 class="text-center my-5">Chỉnh Sửa Sản Phẩm</h1>
         <div class="mb-3">
             <label for="id" class="form-label">ID sản phẩm</label>
-            <input type="text" class="form-control" id="id" name="id" value="${idUpdate}" readonly>
+            <input type="text" class="form-control" id="id" name="id" value="${product.id}" readonly>
         </div>
         <div class="mb-3">
             <label for="name" class="form-label">Tên Sản Phẩm</label>
-            <input type="text" class="form-control" id="name" name="nameProduct" value="${nameUpdate}" required>
+            <input type="text" class="form-control" id="name" name="nameProduct" value="${product.nameProduct}" required>
         </div>
         <div class="mb-3">
             <label for="price" class="form-label">Giá Sản Phẩm</label>
-            <input type="text" class="form-control" id="price" name="price" value="${priceUpdate}" required>
+            <input type="text" class="form-control" id="price" name="price" value="${product.price}" required>
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Mô Tả Sản Phẩm</label>
-            <input type="text" class="form-control" id="description" name="description" value="${descriptionUpdate}" required>
+            <input type="text" class="form-control" id="description" name="description" value="${product.description}" required>
         </div>
         <div class="mb-3">
             <label for="producer" class="form-label">Nhà Sản Xuất</label>
-            <input type="text" class="form-control" id="producer" name="producer" value="${producerUpdate}" required>
+            <input type="text" class="form-control" id="producer" name="producer" value="${product.producer}" required>
         </div>
         <button type="submit" class="btn btn-primary">Xác Nhận</button>
     </form>

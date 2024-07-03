@@ -34,4 +34,10 @@ public class ProductServiceImpl implements ProductService {
     public Boolean remove(int id) {
         return productRepository.remove(id);
     }
+
+    @Override
+    public Product findById(int id) {
+        return productRepository.findById(id);
+    }
+
 }

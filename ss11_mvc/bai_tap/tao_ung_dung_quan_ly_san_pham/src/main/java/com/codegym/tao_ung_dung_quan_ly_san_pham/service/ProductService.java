@@ -10,4 +10,5 @@ public interface ProductService {
     List<Product> searchByName(String name);
     boolean updateProduct(int id, String nameProduct, int price, String description, String producer);
     Boolean remove(int id);
+    Product findById(int id);
 }
